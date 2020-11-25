@@ -1,0 +1,185 @@
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+$theme-colors: map-merge(
+                (
+                        "primary": $primary,
+                        "secondary": $info,
+                        "success": $success,
+                        "info": $secondary,
+                        "warning": $warning,
+                        "danger": $danger,
+                        "light": $light,
+                        "dark": $dark
+                ),
+                $theme-colors
+);
+
+@import "../node_modules/bootstrap/scss/_mixins.scss";
+@import "../node_modules/bootstrap/scss/_root.scss";
+@import "../node_modules/bootstrap/scss/_reboot.scss";
+@import "../node_modules/bootstrap/scss/_type.scss";
+@import "../node_modules/bootstrap/scss/_images.scss";
+@import "../node_modules/bootstrap/scss/_code.scss";
+@import "../node_modules/bootstrap/scss/_grid.scss";
+@import "../node_modules/bootstrap/scss/_tables.scss";
+@import "../node_modules/bootstrap/scss/_forms.scss";
+@import "../node_modules/bootstrap/scss/_buttons.scss";
+@import "../node_modules/bootstrap/scss/_transitions.scss";
+@import "../node_modules/bootstrap/scss/_dropdown.scss";
+@import "../node_modules/bootstrap/scss/_button-group.scss";
+@import "../node_modules/bootstrap/scss/_input-group.scss";
+@import "../node_modules/bootstrap/scss/_custom-forms.scss";
+@import "../node_modules/bootstrap/scss/_nav.scss";
+@import "../node_modules/bootstrap/scss/_navbar.scss";
+@import "../node_modules/bootstrap/scss/_card.scss";
+@import "../node_modules/bootstrap/scss/_breadcrumb.scss";
+@import "../node_modules/bootstrap/scss/_pagination.scss";
+@import "../node_modules/bootstrap/scss/_badge.scss";
+@import "../node_modules/bootstrap/scss/_jumbotron.scss";
+@import "../node_modules/bootstrap/scss/_alert.scss";
+@import "../node_modules/bootstrap/scss/_progress.scss";
+@import "../node_modules/bootstrap/scss/_media.scss";
+@import "../node_modules/bootstrap/scss/_list-group.scss";
+@import "../node_modules/bootstrap/scss/_close.scss";
+@import "../node_modules/bootstrap/scss/_toasts.scss";
+@import "../node_modules/bootstrap/scss/_modal.scss";
+@import "../node_modules/bootstrap/scss/_tooltip.scss";
+@import "../node_modules/bootstrap/scss/_popover.scss";
+@import "../node_modules/bootstrap/scss/_carousel.scss";
+@import "../node_modules/bootstrap/scss/_spinners.scss";
+@import "../node_modules/bootstrap/scss/_utilities.scss";
+@import "../node_modules/bootstrap/scss/_print.scss";
+
+.pointer {
+  cursor: pointer;
+}
+
+.toppad50 {
+  padding-top: 50px;
+}
+
+.wide30per {
+  padding: 1.5%;
+  width: 30%;
+}
+
+.nodecor {
+  text-decoration: none;
+}
+
+.wide50per {
+  width: 45%;
+}
+
+.psace {
+  font-family: "Comic Sans MS";
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.flexcenter {
+  display: flex;
+  justify-content: center;
+}
+
+.inline {
+  display: inline;
+}
+
+.nopaddbott {
+  padding-bottom: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.nomarbott {
+  margin-bottom: 0;
+}
+
+.flexnowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.h250 {
+  height: 250px;
+}
+
+#myCarousel {
+  padding-top: 75px;
+}
+
+.inlineflex {
+  display: inline-flex;
+}
+
+.alignstretch {
+  align-content: stretch;
+}
+
+.flexgrow1 {
+  flex-grow: 1;
+}
+
+.flexgrow2 {
+  flex-grow: 2;
+}
+
+.flexshrink0 {
+  flex-shrink: 0;
+}
+
+.flexshrink1 {
+  flex-shrink: 5;
+}
+
+.padd5p {
+  padding: 5px;
+}
+
+.fontlight {
+  color: #F8F9FA;
+}
+
+.justifyspacebetween {
+  justify-content: space-between;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.flexcolumn {
+  flex-direction: column;
+  display: flex;
+}
+
+.flexstart {
+  align-self: flex-start;
+}
+
+.flexend {
+  align-self: flex-end;
+}
+
+.fittworow {
+  display: flex;
+  flex-direction: row;
+}
+
+.nopaddtop {
+  padding-bottom: 0;
+}
+
+.nomarbott {
+  margin-bottom: 0;
+}
